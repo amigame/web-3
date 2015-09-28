@@ -1,8 +1,8 @@
-# APP UI: Component
+# Web 3
 
-A bare minimum custom element for [APP UI](http://github.com/app-ui) using [VanillaJS](http://vanilla-js.com/).
+Online browsing in 3D. Created as a VR-first experience.
 
-This is merely a template, designed to make it easy to get started creating a new APP UI element.
+Inspired by 90s sci-fi...
 
 
 ## Examples
@@ -14,18 +14,13 @@ This is merely a template, designed to make it easy to get started creating a ne
 
 Using bower:
 ```
-bower install app.ui.component
+bower install web-3
 ```
 
 Import from github
 ```
-git pull git://github.com/app-ui/component.git master
+git pull git://github.com/amigame/web-3.git master
 ```
-
-Simply search and replace ```component``` and ```Component``` with your UI element name.
-
-The component contains all the basic structure to get started. The stylesheet is created using Less and then been compiled to a plain CSS file. It's your choice if you want to continue developing in Less or CSS.
-
 
 
 ## Usage
@@ -33,18 +28,18 @@ The component contains all the basic structure to get started. The stylesheet is
 1. Import Web Components' polyfill
 
 ```html
-<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+<script src="components/webcomponentsjs/webcomponents.min.js"></script>
 ```
 
 2. Import Custom Element:
 ```html
-<link rel="import" href="bower_components/app.ui.component">
+<link rel="import" href="components/web-3">
 ```
 
 3. Start using it!
 
-```html
-<ui-component></ui-component>
+```htmls
+<web-3></web-3>
 ```
 
 
