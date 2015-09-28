@@ -1,10 +1,10 @@
 {
-	"name": "app.ui.component",
-	"version": "0.3.0",
-	"description": "APP UI: Component",
+	"name": "web-3",
+	"version": "0.0.1",
+	"description": "Web 3",
 	"license": "MIT",
 	"keywords": [
-			"component", "app-ui", "ui", "web-components"
+			"amigame", "web", "component", "web-components"
 	],
 	"main": "index.html",
 	"ignore": [
